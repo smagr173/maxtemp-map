@@ -2,15 +2,19 @@
 
 ## Project Overview
 
-This project is a React.js-based web application that visualizes the maximum temperature data on a map, providing a heatmap representation of temperature variations across different regions. The backend is built on Express.js and Node.js, which is responsible for fetching maximum temperature values from a specified API for a given day. It processes this data into a GeoJSON file format, which is then made accessible to the frontend.
+This project is a React.js based web application that visualizes the maximum temperature data on a map, providing a heatmap representation of temperature variations across different regions. The backend is built on Express.js and Node.js, which is responsible for fetching maximum temperature values from a specified API for a given day. It processes this data into a GeoJSON file format, which is then made accessible to the frontend.
 
 The frontend consumes the GeoJSON file and maps the maximum temperature data onto a geographical map. Each data point is correlated with a specific color that indicates the temperature range, creating an intuitive and visually engaging heatmap that reflects the temperature distribution.
+
+I decided to fetch and build my own data using station ID values gathered from the NOAA API. These are then used to query the API for the maximum temperature data for each station.
+For details on how I accessed the NOAA data used, see the following documentation - https://www.ncei.noaa.gov/cdo-web/webservices/v2#gettingStarted
 
 ## Running the Project Locally
 
 ### Prerequisites
 
 To run the project, you will need to have Node.js and npm (Node Package Manager) installed on your machine.
+Make sure you have a .env file in the project directory that includes the entries from the env_example file.
 
 ### Backend Setup
 
