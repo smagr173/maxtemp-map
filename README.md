@@ -8,7 +8,7 @@ The frontend consumes the GeoJSON file and maps the maximum temperature data ont
 
 I decided to fetch and build my own data using station ID values gathered from the NOAA API. These are then used to query the API for the maximum temperature data for each station.
 For details on how I accessed the NOAA data used, see the following documentation - https://www.ncei.noaa.gov/cdo-web/webservices/v2#gettingStarted
-<img src="https://johndan2354.github.io/hobbieImages/collections.PNG" width="300" height="530" />
+<img src="https://johndan2354.github.io/hobbieImages/weather.PNG" width="300" height="530" />
 ## Running the Project Locally
 
 ### Prerequisites
