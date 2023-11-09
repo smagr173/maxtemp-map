@@ -1,0 +1,8 @@
+.map-container {
+  background-color: transparent;
+  overflow: hidden;
+  border: 2px solid #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
